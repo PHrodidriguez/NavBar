@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+header.rolar{
+    background-color: #fff;
+    padding: 20px 4%;
+    transition: 0.3s;
+    
+}
+
+
+.container ul{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    justify-content: space-evenly;
+ 
+
+
+}
+#btn{
+    width: 160px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    color: #adadad;
+
+}
+#btn:hover{
+    background-color: #fff;
+    transition: 0.5s;
+}
+li a{
+    text-decoration: none;
+    color: #adadad;
+} 
+li a:hover{
+    color: #fff;
+    transition: 0.5s;
+}
+html{
+    height: 500vh;
+}
+ ul li{
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+}
+
+ .image{
+    height: 100vh;
+    background-image: url(./vista.jpg);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .image h1{
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+ }
+ .image span{
+    color: pink;
+ }
